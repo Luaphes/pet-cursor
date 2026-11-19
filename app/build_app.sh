@@ -66,7 +66,7 @@ codesign --verify --deep --strict "$APP"
 PKG="$TMP/pkg/宠物指针"; mkdir -p "$PKG"
 ditto "$APP" "$PKG/宠物指针.app"
 cp "$HERE/安装说明.txt" "$PKG/安装说明.txt"
-rm -f "$OUT/宠物指针-Mac.zip"
-(cd "$TMP/pkg" && ditto -c -k --norsrc --keepParent "宠物指针" "$OUT/宠物指针-Mac.zip")
+rm -f "$OUT/PetCursor-Mac.zip"
+(cd "$TMP/pkg" && ditto -c -k --norsrc --keepParent "宠物指针" "$OUT/PetCursor-Mac.zip")
 echo "内置宠物：$(ls "$APP/Contents/Resources/Skins" | tr '\n' ' ')"
 ls -la "$OUT"

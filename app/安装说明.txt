@@ -37,8 +37,8 @@
 
 把这份说明和压缩包路径一起发给你的 AI 助手（Claude Code 等），说「按这份说明帮我装好」即可。下面这段是给助手看的：
 
-  # 假设压缩包在 ~/Downloads/宠物指针-Mac.zip
-  cd ~/Downloads && ditto -x -k 宠物指针-Mac.zip ./宠物指针-解压
+  # 假设压缩包在 ~/Downloads/PetCursor-Mac.zip
+  cd ~/Downloads && ditto -x -k PetCursor-Mac.zip ./宠物指针-解压
   cp -R ./宠物指针-解压/宠物指针/宠物指针.app /Applications/
   xattr -dr com.apple.quarantine /Applications/宠物指针.app   # 去掉下载标记，免去「仍要打开」那一步
   open /Applications/宠物指针.app

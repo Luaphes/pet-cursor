@@ -32,7 +32,7 @@
 bash app/build_app.sh
 ```
 
-产物在 `dist/`：`宠物指针.app` 和打包好的 `宠物指针-Mac.zip`。`skins/` 下的每个宠物文件夹都会内置进 App。
+产物在 `dist/`：`宠物指针.app` 和打包好的 `PetCursor-Mac.zip`。`skins/` 下的每个宠物文件夹都会内置进 App。
 
 ## 目录
 
